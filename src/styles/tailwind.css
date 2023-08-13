@@ -1,0 +1,58 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles for the app */
+body {
+  @apply bg-gray-100;
+}
+
+/* Navbar styles */
+.navbar {
+  @apply bg-blue-500 text-white;
+}
+
+/* Sidebar styles */
+.sidebar {
+  @apply bg-gray-200 text-gray-700;
+}
+
+/* Card styles */
+.card {
+  @apply bg-white rounded shadow-md p-4;
+}
+
+/* Form styles */
+.form {
+  @apply bg-white rounded shadow-md p-4;
+}
+
+/* Button styles */
+.button {
+  @apply bg-blue-500 text-white rounded px-4 py-2;
+}
+
+/* Dropdown styles */
+.dropdown {
+  @apply bg-white rounded border-gray-300;
+}
+
+/* File upload styles */
+.file-upload {
+  @apply bg-white rounded border-gray-300;
+}
+
+/* Date picker styles */
+.date-picker {
+  @apply bg-white rounded border-gray-300;
+}
+
+/* User profile avatar styles */
+.user-profile-avatar {
+  @apply rounded-full;
+}
+
+/* Logout popup styles */
+.logout-popup {
+  @apply bg-white rounded shadow-md p-4;
+}
