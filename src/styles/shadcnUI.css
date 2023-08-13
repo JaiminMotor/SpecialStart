@@ -1,0 +1,96 @@
+/* src/styles/shadcnUI.css */
+
+/* Import Shadcn UI CSS */
+@import 'shadcn-ui/dist/shadcn-ui.css';
+
+/* Custom styles for the app */
+
+/* Navbar styles */
+.navbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.navbar .company-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar .user-profile-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+}
+
+.sidebar .tab {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.sidebar .tab.active {
+    background-color: #dee2e6;
+}
+
+/* Card styles */
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.card .picture {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Form styles */
+.form {
+    margin-top: 15px;
+}
+
+.form .field {
+    margin-bottom: 15px;
+}
+
+.form .field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form .field input,
+.form .field select,
+.form .field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.form .field .file-upload {
+    padding: 0;
+}
+
+.form .field .date-picker {
+    display: inline-block;
+    width: auto;
+}
+
+/* Logout popup styles */
+.logout-popup {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 15px;
+    z-index: 1000;
+}
